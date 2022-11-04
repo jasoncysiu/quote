@@ -1,0 +1,37 @@
+@import url("https://fonts.cdnfonts.com/css/marcellus-sc");
+@import url("db.onlinewebfonts.com/c/dfb65e12b864428604262596b857d782?family=Linux+Libertine" );
+@import url("https://fonts.googleapis.com/css?family=Assistant:300");
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #191919;
+}
+
+#quotation {
+  font-family: "Linux Libertine", script;
+  font-size: 6vmin;
+  line-height: 1.2;
+  hanging-punctuation: first;
+  color: white;
+}
+
+#source {
+  font-family: "Assistant", sans-serif;
+  font-size: 4vmin;
+  text-indent: 4vmin;
+  color: white;
+
+}
+
+button {
+  font-family: "Assistant", sans-serif;
+  display: block;
+  padding: 0.5rem;
+  outline: none;
+  font-size: 0.8rem;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
